@@ -36,7 +36,7 @@ currently selected color and we also need a way for `ColorSelector` to _modify_
 the selected color based on user input. To do this, we will have the parent
 component, `Matrix`, keep track of the current selected color.
 
-Because passing information between children components is taboo in React, (i.e.
+Because passing information between sibling components is taboo in React, (i.e.
 passing information between `ColorSelector` and a `Cell`), we need to make sure
 that the following is implemented:
 
